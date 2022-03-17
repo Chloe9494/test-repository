@@ -11,7 +11,7 @@ const player = {
 console.log(player);
 player.fat = false;
 //이 경우엔 constant가 수정된 것이 아니라(cuz constant는 수정될 수 없기 때문)
-//Object 안의 정보를 수정하는 것이다.
+//Object 안의 정보를 수정하게 되는 것이다.
 
 // console.log(player.name); 
 // console.log(player["name"]);  
