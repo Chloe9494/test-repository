@@ -13,3 +13,8 @@ function plus (a, b){
     console.log(a + b);
 }
 plus(2, 4);
+
+function divide (a, b){
+    console.log(a / b);
+}
+divide(16, 4);
