@@ -14,7 +14,13 @@ function plus (a, b){
 }
 plus(2, 4);
 
-function divide (a, b){
-    console.log(a / b);
+
+const player = {
+    name : "chloe",
+    sayHello : function(otherPersonsName) {
+        console.log("hello " + otherPersonsName );
+    }
 }
-divide(16, 4);
+
+console.log(player.name);
+player.sayHello("kyla");
