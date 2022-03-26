@@ -1,26 +1,15 @@
-function sayHello(nameOfPerson, age) {
-    console.log("Hi my name is " + nameOfPerson + " I'm " + age + " years old");
-}
-// function이란 반복해서 사용할 수 있는 코드조각이다.
-// 실행할 때마다 블록 안에 작성된 코드가 실행되는것 
+const a = 5;
+let isChloefat = true;
 
-sayHello("Chloe", 22);
-sayHello("Jason", 18);
-sayHello("Dyke", 42); 
-//sayHello()의 괄호( {} ) 안을 실행하게 만든다
+isChloefat = false;
+//const와 let의 차이 = let은 업데이트를 할 수 있다는 것
+//variable을 수정할 때는 앞에 let을 붙일 필요는 없다.(생성하는 것이 아니고 수정하는 것이기 때문에)
 
-function plus (a, b){
-    console.log(a + b);
-}
-plus(2, 4);
+//var는 최대한 사용하지 않는 것이 좋다. 
 
+const toBuy = ["potato", "tomato", "pizza"];
 
-const player = {
-    name : "chloe",
-    sayHello : function(otherPersonsName) {
-        console.log("hello " + otherPersonsName );
-    }
-}
-
-console.log(player.name);
-player.sayHello("kyla");
+console.log(toBuy[2]);
+toBuy[2] = "water";
+// 배열의 2번 인덱스에 water로 값을 설정한 것 
+console.log(toBuy[2]);
