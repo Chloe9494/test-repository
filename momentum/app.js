@@ -33,3 +33,12 @@ function calculateKrAge(ageOfForeigner) {
 const krAge = calculateKrAge(age);
 
 console.log(krAge);
+
+const calculator = {
+    plus: function (2, 3){
+        return 5;
+    },
+};
+
+const plusResult = calculator.plus(2,3);
+console.log(plusResult);
