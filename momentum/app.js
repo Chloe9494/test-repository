@@ -41,4 +41,7 @@ const calculator = {
 };
 
 const plusResult = calculator.plus(2,3);
-console.log(plusResult);
+const minusResult = calculator.minus(plusResult, 10); 
+const timesResult = calculator.times(10, minusResult);
+const divedeResult = calculator.divide(timesResult, plusResult);
+const powerResult = calculator.power(divedeResult, minusResult);
