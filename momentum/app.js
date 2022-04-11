@@ -10,8 +10,16 @@ if(isNaN (age)) {
     console.log("Please write a number");
 } else if (age < 18){
     console.log("You are too young");
-} else {
-    console.log("Thank you for writing your age");
 }
+  else if (age >= 18 && age <= 50){
+    console.log("You can drink");
+}  
+   else if (age > 100) {
+    console.log("Are you sure?...");
+ } 
+else {
+    console.log("Thank you for writing your age");
+}   
+
 // 입력된 값이 숫자가 아니라면 (isNaN) if절을 실행, 
 // 나이가 18세 미만이라면 else if절을 , 숫자가 맞다면 else 절을 실행하도록 함 
