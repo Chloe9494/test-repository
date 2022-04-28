@@ -12,6 +12,11 @@ function handleMouseLeave() {
     title.innerText = "Mouse is gone";
 }
 
+function handleUserLeave() {
+    title.innerText = "user is gone";
+}
+
+
 function handleWindowResize() {
     document.body.style.backgroundColor = "tomato";
 }
