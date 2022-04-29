@@ -31,3 +31,4 @@ h1.addEventListener("mouseleave", handleMouseLeave);
 
 window.addEventListener("resize", handleWindowResize);
 window.addEventListener("copy", handleWindowCopy);
+window.addEventListener("online", handleWindowOnline);
