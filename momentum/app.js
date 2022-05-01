@@ -1,13 +1,5 @@
-const h1 = document.querySelector("div.hello:first-child h1");
+const age = parseInt(prompt("How old are you?"));
 
-function handleTitleClick() {
-   const currentColor = h1.style.color;
-   let newColor;
-    if (currentColor === "blue") {
-       h1.style.color = "tomato";
-   } else {
-       h1.style.color = "blue";
-   }
+if (isNaN(age)) {
+    console.log("please write a number");
 }
-
-h1.addEventListener("click", handleTitleClick);
