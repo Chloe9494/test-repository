@@ -1,5 +1,7 @@
-const age = parseInt(prompt("How old are you?"));
+const h1 = document.querySelector("div.hello:first-child h1");
 
-if (isNaN(age)) {
-    console.log("please write a number");
+function handleTitleClick() {
+  h1.classList.toggle("clicked");
 }
+
+h1.addEventListener("click", handleTitleClick);
