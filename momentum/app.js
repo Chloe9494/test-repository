@@ -5,7 +5,8 @@ const link = document.querySelector("a");
 
 function onLoginSubmit(event) {
     tomato.preventDefault();
-    console.log(loginInput.value);
+    const username = loginInput.value;
+    loginForm.classList.add("hidden");
 }
 
 function handleLinkClick(){
@@ -13,4 +14,4 @@ function handleLinkClick(){
 }
 
 loginForm.addEventListener("submit", onLoginSubmit);
-link.addEventListener("click", handleLinkClick);
+//link.addEventListener("click", handleLinkClick);
