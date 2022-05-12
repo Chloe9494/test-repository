@@ -1,12 +1,13 @@
 const loginInput = document.querySelector("#login-form input");
 const loginButton = document.querySelector("#login-form button");
 
-const link = document.querySelector("a");
-
-function onLoginSubmit(event) {
-    tomato.preventDefault();
+function onLoginBtnClick() {
     const username = loginInput.value;
-    loginForm.classList.add("hidden");
+    if (username === "") {
+        alert("please write your name");
+    } else if (username.length) {
+        alert("Your name is too long");
+    }
 }
 
 function handleLinkClick(){
