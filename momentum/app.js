@@ -9,6 +9,7 @@ function onLoginBtnClick(event) {
 }
 
 function handleLinkClick(){
+    console.log(event);
     alert("click");
 }
 

@@ -14,7 +14,7 @@ const calculator = {
     power : function(a, b){
         console.log(a ** b)
     },
-};
+}; //계산기 
 
 calculator.plus(2,3);
 calculator.minus(2,3);
@@ -34,11 +34,7 @@ const krAge = calculateKrAge(age);
 
 console.log(krAge);
 
-const calculator = {
-    plus: function (2, 3){
-        return 5;
-    },
-};
+
 
 const plusResult = calculator.plus(2,3);
 const minusResult = calculator.minus(plusResult, 10); 
