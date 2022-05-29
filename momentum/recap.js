@@ -13,6 +13,7 @@ console.log(toBuy[2]);
 toBuy[2] = "water";            // 배열의 2번 인덱스에 water로 값을 설정한 것 
 console.log(toBuy[2]);
 toBuy.push("one");             // 배열에 새로운 요소를 추가
+                               // 배열에 새롭게 추가된 요소는 제일 마지막으로 들어간다.
 
 
 
