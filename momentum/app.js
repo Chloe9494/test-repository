@@ -11,14 +11,6 @@ function onLoginSubmit(event) {
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-function onLoginSubmit(event) {
-    event.preventDefault();
-    loginForm.classList.add(HIDDEN_CLASSNAME);
-    localStorage.setItem("username", username);
-    greeting.innerText = `Hello ${username}`;
-    greeting.classList.remove(HIDDEN_CLASSNAME);
-}
-
 const saveUsername = localStorage.getItem("username");
 
 if (savedUsername === null) {
