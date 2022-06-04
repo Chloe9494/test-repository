@@ -14,6 +14,11 @@ function plus (a, b){
 }
 plus(2, 4);
 
+function plus (a, b){
+    console.log(a + b);
+}
+plus(2, 4);
+
 
 const player = {
     name : "chloe",
