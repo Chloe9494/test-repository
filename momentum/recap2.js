@@ -22,7 +22,7 @@ calculator.times(2,3);
 calculator.divide(2,3);
 calculator.power(2,3);
 
-
+//각각 정해져있는 공식을 실행하게 함
 
 
 const age = 96;
