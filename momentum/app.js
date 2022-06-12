@@ -16,9 +16,8 @@ const saveUsername = localStorage.getItem("username");
 if (savedUsername === null) {
 
 } else {
+
 }
 
-
-loginForm.addEventListener("submit", onLoginSubmit);
 
 loginForm.addEventListener("submit", onLoginSubmit);

@@ -26,3 +26,7 @@ console.log(player);
 console.log(player);
 player.points = player.points +15;
 console.log(player.po);
+
+console.log(player);
+player.height = player.points +20;
+console.log(player.po);
