@@ -6,3 +6,8 @@ function onLoginSubmitClick() {
     const username = loginInput.value;
     console.log(username);
 }
+
+function onLoginSubmitClick() {
+    const username = loginInput.value;
+    console.log(username);
+}
