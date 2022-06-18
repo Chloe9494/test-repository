@@ -7,7 +7,6 @@ function onLoginSubmitClick() {
     console.log(username);
 }
 
-function onLoginSubmitClick() {
-    const username = loginInput.value;
-    console.log(username);
-}
+loginForm.addEventListener("submit", onLoginSubmit);
+
+onLoginSubmitClick();
