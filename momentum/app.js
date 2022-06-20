@@ -10,3 +10,12 @@ function onLoginSubmitClick() {
 loginForm.addEventListener("submit", onLoginSubmit);
 
 onLoginSubmitClick();
+
+function onLoginSubmitClick() {
+    const username = loginInput.value;
+    console.log(username);
+}
+
+loginForm.addEventListener("submit", onLoginSubmit);
+
+onLoginSubmitClick();
