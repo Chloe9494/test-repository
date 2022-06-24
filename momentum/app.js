@@ -4,9 +4,14 @@ const loginInput = document.querySelector("#login-form input");
 
 function onLoginSubmitClick(event) {
     event.preventDefault();
-    const username = loginInput.value;
+    console.log(loginInput.value);
+}
+
+function handleLinkClick(){
+
 }
 
 loginForm.addEventListener("submit", onLoginSubmit);
+link.addEventListener("click", handleLinkClick);
 
 
