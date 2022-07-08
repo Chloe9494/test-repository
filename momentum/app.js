@@ -9,6 +9,7 @@ function onLoginSubmitClick(event) {
 
 function handleLinkClick(event) {
  event.preventDefault();
+ console.log();
 }
 
 loginForm.addEventListener("submit", onLoginSubmit);
