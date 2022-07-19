@@ -7,9 +7,11 @@ function onLoginSubmitClick(event) {
     console.log(loginInput.value);
 }
 
+function onLoginSubmitClick(event){
+    event.addEventListener();
+    console.log(loginForm.value);
+}
 
-loginForm.addEventListener("submit", onLoginSubmit);
-link.addEventListener("click", handleLinkClick);
 
 loginForm.addEventListener("submit", onLoginSubmit);
 link.addEventListener("click", handleLinkClick);
