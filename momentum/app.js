@@ -7,7 +7,10 @@ function onLoginSubmitClick(event) {
     console.log(loginInput.value);
 }
 
-
+function onLoginSubmitClick(event) {
+    event.preventDefault();
+    console.log(loginInput.value);
+}
 
 
 
